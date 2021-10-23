@@ -14,13 +14,17 @@ In this folder it is placed all the scripts necesary to run the multiobjective o
 
 **spMODEx algorithm files**
 
-The files `spMODEII.m`,`spMODEparam.m`,`SphPruning.m` and `PhyIndex.m`,`CostFunction.m` are the multiobjective optimization algorithm used, and can be found on https://www.mathworks.com/matlabcentral/fileexchange/47035
+*The files `spMODEII.m`,`spMODEparam.m`,`SphPruning.m` and `PhyIndex.m`,`CostFunction.m` are the multiobjective optimization algorithm used, [spMODEII](https://www.mathworks.com/matlabcentral/fileexchange/47035)
+*`C`
 
 **ODE Model**
-The file `model.m` contains the ODE model definition. The file `Main_anthitetic_marker.m` contains s script to run the model, and to obtain simulation reuslts like in the next figure.
+The file `model.m` contains the ODE model definition. The file `Main_anthitetic_marker.m` contains the script to run the model, and to obtain simulation reuslts like in the next figure.
+
 ## Example simulation result from the metabolic pathway with dynamic regulation model
-Using 
-![Model Simulation](/images/temporales_naringenin.png){:height="600px"}.
+To plot simulation results 
+
 ## Example result from a multiobjective optimization
-![Pareto Front](/images/pareto_front.png| width=80%)
-![Pareto Set](/images/pareto_set.png| width=80%)
+To plot optimization results run `Plot_only.m` script. You need to install [Level diagrams toolbox](https://www.mathworks.com/matlabcentral/fileexchange/62224).  
+![Pareto Set](/images/pareto_set.png)
+![Pareto Front](/images/pareto_front.png)
+
