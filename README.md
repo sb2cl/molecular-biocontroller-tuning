@@ -20,7 +20,7 @@ The files `spMODEII.m`,`spMODEparam.m`,`SphPruning.m` and `PhyIndex.m`,`CostFunc
 The file `model.m` contains the ODE model definition. The file `Main_anthitetic_marker.m` contains s script to run the model, and to obtain simulation reuslts like in the next figure.
 ## Example simulation result from the metabolic pathway with dynamic regulation model
 Using 
-![Model Simulation](/images/temporales_naringenin.png| width=80%)
+![Model Simulation](/images/temporales_naringenin.png){:height="600px"}.
 ## Example result from a multiobjective optimization
 ![Pareto Front](/images/pareto_front.png| width=80%)
 ![Pareto Set](/images/pareto_set.png| width=80%)
